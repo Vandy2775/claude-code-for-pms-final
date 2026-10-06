@@ -24,6 +24,10 @@ prompt library built from your own questions.
 
 ### 1.
 
+What's contradictory or missing, not just in the company documents, but across everything in 00-rook?
+
 ### 2.
+
+Before we wrap up, two things. First: look back through this session and find the prompts I wrote myself, not the starter I pasted. Save them into 01-origin-story/prompts.md, one per numbered slot, exactly as I typed them. Don't tidy them up. Second: add a few lines to the Working context in CLAUDE.md, anything we figured out today that isn't in there yet and that I'd want you to already know next session.
 
 ### 3.
