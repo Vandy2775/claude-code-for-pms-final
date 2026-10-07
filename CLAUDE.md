@@ -113,3 +113,25 @@ handler data respectively.
 - `history.py` has an unresolved question (open since 2019) on whether
   the recent-acceptance score should decay back to neutral over time —
   directly relevant to the acceptance-rate drop, never answered.
+- Confirmed: a handler is a separate person who looks after a responder
+  (or a few) and sits at the console; the "responder in the field"
+  vocabulary entry above is wrong. Wiki pages, interviews, tickets and
+  briefs are now saved as text under `00-rook/company`, `00-rook/feedback`
+  and `06-sidekicks/briefs`; weekly data is `00-rook/data/callout-history.csv`.
+- Weekly acceptance held at 75-78% for six weeks, fell to 54% in the
+  week of 10 Aug, and is back to 73% by 31 Aug. 12 of 16 responders
+  show a mild dip while being pinged more; Farlight, Meteor Mite, The
+  Undertow and Vesper fell from 11-14 pings a week to 0-3 and almost
+  none taken. Incident volume in their areas fell only ~14%, the same
+  as everywhere, so it is not less demand.
+- The 90s to 60s ping timeout cut raised the missed rate everywhere
+  (about 2% to 14%) but those four went to 59%. The timeout was a
+  Priya-owned Q3 item with no written reason, and Availability
+  Confidence was committed for 4.2 but is not in the release notes.
+- No routing logs are reachable: the database has 5 tables, none hold
+  ranking scores, and `responders` keeps no history. Routing override
+  audit log shipped in 4.0 but its contents are not queryable. Wen Li
+  was away 14-24 Aug; the engineering manager's question on whether
+  the reweighting applies to decliners was never answered.
+- Open: why those four, and what knocked them down the ranking right
+  at 4.2. Next stop is Wen Li or whoever can see Dispatch's internal logs.
